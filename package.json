@@ -4,11 +4,13 @@
   "description": "",
   "main": "config.js",
   "dependencies": {
-    "selenium-server-standalone-jar": "^3.141.59"
+    "selenium-server-standalone-jar": "^3.141.59",
+    "selenium-standalone": "^6.19.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/selenium-standalone install && ./node_modules/.bin/selenium-standalone start",
+    "run":"npm run test && protractor config"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,6 @@
 exports.config = {
   chromeDriver: './chromeDriver',
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['todo-spec.js']
+  seleniumServerJar: './selenium-server-3.141.59.jar',
+  specs: ['spec.js']
 };

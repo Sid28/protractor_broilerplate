@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "./node_modules/.bin/selenium-standalone install && ./node_modules/.bin/selenium-standalone start",
-    "run":"npm run test && protractor config"
+    "run":"webdriver-manager start && protractor config"
   },
   "repository": {
     "type": "git",

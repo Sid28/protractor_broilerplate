@@ -1,7 +1,9 @@
+var jar = require('selenium-server-standalone-jar');
+
 exports.config = {
   chromeDriver: './chromedriver',
   // seleniumAddress: 'http://localhost:4444/wd/hub',
-  seleniumServerJar: 'selenium-server-3.141.59.jar',
+  seleniumServerJar: jar.path,
   // directConnet:true,
   specs: ['spec.js'],
   capabilities : {

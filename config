@@ -1,0 +1,5 @@
+exports.config = {
+  chromeDriver: './chromeDriver.exe',
+  directConnect:true,
+  specs: ['todo-spec.js']
+};

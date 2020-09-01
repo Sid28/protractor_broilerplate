@@ -9,7 +9,7 @@ exports.config = {
     shardTestFiles: true,
     maxInstances: 1,
     'chromeOptions': {
-        'args': ['start-minimized', 'window-size=1920,1080']
+        'args': ['start-minimized', 'window-size=1920,1080','--headless']
     }
 }
 };

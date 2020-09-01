@@ -4,7 +4,7 @@ exports.config = {
   // seleniumServerJar: 'selenium-server-3.141.59.jar',
   directConnet:true,
   specs: ['spec.js'],
-  capabilities = {
+  capabilities : {
     browserName: 'chrome',
     shardTestFiles: true,
     maxInstances: 1,

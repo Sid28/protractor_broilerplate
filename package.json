@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "./node_modules/.bin/selenium-standalone install && ./node_modules/.bin/selenium-standalone start",
+    "test": "webdriver-manager update && protractor config",
     "run":"webdriver-manager start && protractor config"
   },
   "repository": {

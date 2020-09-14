@@ -13,5 +13,5 @@ exports.config = {
 //     'chromeOptions': {
 //         'args': ['start-minimized', 'window-size=1920,1080','--headless']
 //     }
-}
+// }
 };

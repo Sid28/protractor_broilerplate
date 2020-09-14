@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "webdriver-manager update && protractor config",
+    "test": "./node_modules/.bin/protractor config",
     "run": "webdriver-manager start && protractor config"
   },
   "repository": {

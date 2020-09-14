@@ -4,13 +4,14 @@
   "description": "",
   "main": "config.js",
   "dependencies": {
+    "protractor": "^7.0.0",
     "selenium-server-standalone-jar": "^3.141.59",
     "selenium-standalone": "^6.19.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "webdriver-manager update && protractor config",
-    "run":"webdriver-manager start && protractor config"
+    "run": "webdriver-manager start && protractor config"
   },
   "repository": {
     "type": "git",

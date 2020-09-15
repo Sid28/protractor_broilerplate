@@ -7,7 +7,7 @@ exports.config = {
   capabilities : {
     browserName: 'chrome',
     'chromeOptions': {
-        'args': ['window-size=1920,1080','--headless','--disble-gpu']
+        'args': ['window-size=1920,1080','--disble-gpu','--no-sandbox']
     }
 }
 };
